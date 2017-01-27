@@ -1,0 +1,12 @@
+<div>
+	<div class="text-center">
+		<img class="cardBg" src="public/images/cardImage.png"/>
+		<div class="nameOnCard">{{bdayname}}'s Birthday!!!</div>
+		<div class="hostOnCard">Hosted By {{hostName}}</div>
+		<div class="venueOnCard">At {{venue}}</div>
+    </div>
+    <input type="text" ng-model="bdayname" placeholder="Whose Birthday?"><br>
+    <input type="text" ng-model="hostName" placeholder="Enter Host Name"><br>
+    <input type="text" ng-model="venue" placeholder="Enter Venue Address"><br>
+    <button type="button" class="btn btn-primary" ng-click="saveAsDraft()">Save as Draft</button>
+</div>

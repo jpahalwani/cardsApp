@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+    	<meta charset='utf-8'>
+    	<link rel="stylesheet" href="public/lib/bootstrap-3.3.7-dist/css/bootstrap.min.css" />
+    	<script src="public/lib/jquery-3.1.1.min.js"></script>
+    	<script src="public/lib/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+        <script src="public/lib/angular.min.js"></script>
+        <script src="public/lib/angular-route.min.js"></script>
+        <script src="public/js/Controllers.js"></script>
+        <script src="public/js/Routes.js"></script>
+        <link rel="stylesheet" href="public/css/style.css" />
+
+    </head>
+    <body>
+    	<div class="text-center">
+			<img class="welcomeLogo" src="public/images/eCard_logo.png"/>
+			<hr>
+    	</div>
+
+    
+    	<div ng-app="eCardsApp">
+            <div ng-view></div>
+        </div>    
+    </body>
+</html>
