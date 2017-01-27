@@ -23,7 +23,7 @@ con.query("SELECT * FROM table1", function(err,rows){
 	console.log(rows);
 	console.log(rows[0].nameOnCard);
 })
-var PORT = 3000;
+var PORT = process.env.PORT || 3000;
 
 app.get('/about',function(req,res){
     res.json({msg:"success"});
